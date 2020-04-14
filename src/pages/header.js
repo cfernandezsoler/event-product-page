@@ -26,7 +26,7 @@ export function Header() {
         <Nav className="container justify-content-end">
           <HeaderLink
             id="inicio"
-            path="/inicio"
+            path="/"
             name="Inicio"
             classNormal="header-link"
             classActive="selected"

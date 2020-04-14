@@ -20,7 +20,6 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
-      <Redirect from="" to="/inicio" />
       <Route path="*">
         <Container />
       </Route>
@@ -35,11 +34,12 @@ const Container = () => {
       <CSSTransition key={location.key} timeout={500} classNames="pagefadein">
         <section className="position-absolute w-100 top-0 left-0">
           <Switch location={location}>
-            <Route path="/inicio" component={Home} />
-            <Route path="/nosotros" component={About} />
-            <Route path="/eventos-proximos" component={EventsNext} />
-            <Route path="/eventos-anteriores" component={EventsPrev} />
-            <Route path="/contacto" component={Contact} />
+            <Route path="/" exact component={Home} />
+            <Route path="/nosotros" exact component={About} />
+            <Route path="/eventos-proximos" exact component={EventsNext} />
+            <Route path="/eventos-anteriores" exact component={EventsPrev} />
+            <Route path="/contacto" exact component={Contact} />
+            <Redirect path="" to="/" />
           </Switch>
           <Footer />
         </section>
