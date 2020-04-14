@@ -1,0 +1,9 @@
+.nosotros-texto {
+  width: 700px;
+  @media screen and (max-width: 800px) {
+    width: auto;
+  }
+}
+.myimage {
+  border: 1px solid rgba(255, 179, 0, 0.8);
+}

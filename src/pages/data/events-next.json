@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "imgSrc": "photo-empty.png",
+    "imgAlt": "empty image",
+    "day": "Vie",
+    "date": "19/6",
+    "name": "Evento 1",
+    "fullDate": "Viernes 19 de Junio",
+    "hour": "01:00 - 04:00 AM",
+    "desc": "Descripcion del evento y/o artista.",
+    "showReservBtn": true
+  },
+  {
+    "id": 1,
+    "imgSrc": "photo-empty.png",
+    "imgAlt": "empty image",
+    "day": "Sab",
+    "date": "20/6",
+    "name": "Evento 2",
+    "fullDate": "Sabado 20 de Junio",
+    "hour": "01:00 - 04:00 AM",
+    "desc": "Descripcion del evento y/o artista.",
+    "showReservBtn": true
+  },
+  {
+    "id": 2,
+    "imgSrc": "photo-empty.png",
+    "imgAlt": "empty image",
+    "day": "Mar",
+    "date": "23/6",
+    "name": "Evento 3",
+    "fullDate": "Martes 23 de Junio",
+    "hour": "21:00 - 01:00 AM",
+    "desc": "Descripcion del evento y/o artista.",
+    "showReservBtn": true
+  },
+  {
+    "id": 3,
+    "imgSrc": "photo-empty.png",
+    "imgAlt": "empty image",
+    "day": "Mar",
+    "date": "21/7",
+    "name": "Evento 4",
+    "fullDate": "Martes 21 de Julio",
+    "hour": "21:00 - 01:00 AM",
+    "desc": "Descripcion del evento y/o artista.",
+    "showReservBtn": true
+  }
+]

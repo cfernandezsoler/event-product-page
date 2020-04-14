@@ -1,0 +1,37 @@
+form {
+  textarea,
+  input {
+    display: block;
+    width: 600px;
+    background-color: black;
+    border: 1px solid rgba(255, 179, 0, 0.5);
+    margin: 20px auto;
+    padding: 8px;
+    font-size: 20px;
+    @media screen and (max-width: 700px) {
+      width: 90%;
+    }
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  }
+  #mensaje {
+    resize: none;
+    height: 250px;
+  }
+  button {
+    margin: 15px;
+    padding: 5px 40px 5px;
+    background-color: black;
+    font-size: 25px;
+    color: rgba(255, 179, 0, 0.8);
+    border: 1px solid rgba(255, 179, 0, 0.6);
+    transition: 0.3s;
+    &:hover {
+      background-color: rgba(255, 179, 0, 0.3);
+    }
+  }
+}

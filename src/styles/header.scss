@@ -1,0 +1,59 @@
+.header-line {
+  border-bottom: 3px solid rgba(255, 179, 0, 0.294);
+}
+
+.header-link {
+  padding: 0 20px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+  &.selected {
+    border-bottom: 1px solid rgba(255, 179, 0, 0.822);
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.evento-button {
+  background: black;
+  padding: 0 10px;
+  border: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+  &.selected {
+    border-bottom: 1px solid rgba(255, 179, 0, 0.822);
+  }
+}
+
+.overlay-menu {
+  position: absolute;
+  background-color: black;
+  border: 1px solid rgba(255, 179, 0, 0.6);
+  border-radius: 5px;
+  animation: 0.5s fade-in;
+  z-index: 1;
+  .overlay-link {
+    display: block;
+    border-left: 5px solid transparent;
+    padding: 8px 18px;
+    transition: border-left 0.5s;
+    h3 {
+      font-size: 22px;
+    }
+    &.selected {
+      border-left: 5px solid rgba(255, 179, 0, 0.822);
+    }
+    &:hover {
+      text-decoration: none;
+      background-color: rgba(255, 179, 0, 0.3);
+    }
+  }
+  .overlay-underline {
+    border-bottom: 1px solid rgba(255, 179, 0, 0.6);
+  }
+}
+
+i {
+  font-size: 30px;
+  color: rgba(255, 179, 0, 0.822);
+}

@@ -1,0 +1,30 @@
+* {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+.m-center {
+  margin: 0 auto;
+}
+.icon-gold {
+  color: rgba(255, 179, 0, 0.8);
+}
+
+.pagefadein-enter {
+  opacity: 0;
+}
+.pagefadein-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.pagefadein-exit {
+  opacity: 1;
+}
+
+.pagefadein-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}

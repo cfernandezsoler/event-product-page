@@ -1,0 +1,36 @@
+#intro {
+  #description {
+    width: 700px;
+    font-size: 20px;
+    @media screen and (max-width: 800px) {
+      width: auto;
+    }
+  }
+}
+
+.item-container {
+  width: 300px;
+  @media screen and (max-width: 777px) {
+    margin: 0 auto;
+  }
+}
+
+.carousel .control-dots {
+  right: 5%;
+}
+
+#link-reserve {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto 20px;
+  font-size: 25px;
+  color: rgba(255, 179, 0, 0.8);
+  border: 1px solid rgba(255, 179, 0, 0.6);
+  text-decoration: none;
+  transition: 0.3s;
+  &:hover {
+    color: inherit;
+    background-color: rgba(255, 179, 0, 0.3);
+  }
+}
