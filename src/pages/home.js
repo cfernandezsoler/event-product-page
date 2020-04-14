@@ -3,11 +3,10 @@ import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import "../styles/home.scss";
 import "../styles/libraries/carousel.min.css";
-//BA-DISCO seria el nombre fictisio
 
 export class Home extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = { windowWidth: window.innerWidth }; // esto seria 700px
   }
@@ -57,7 +56,7 @@ export class Home extends Component {
         </ItemList>
 
         <h3 className="m-3">¿Queres saber mas?</h3>
-        <ContactoLink />
+        <ContactoLink startLink={this.props.startLink} />
       </div>
     );
   }
@@ -105,8 +104,8 @@ const ItemList = (props) =>
     </div>
   );
 
-const ContactoLink = () => (
-  <Link id="link-reserve" to="/contacto">
+const ContactoLink = (props) => (
+  <Link id="link-reserve" to={`${props.startLink}/contacto`}>
     Contactanos
   </Link>
 );

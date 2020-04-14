@@ -25,6 +25,7 @@ export const Event = (props) => (
         desc={props.desc}
         albumLink={props.albumLink}
         showReservBtn={props.showReservBtn}
+        startLink={props.startLink}
       />
     }
     overlayScreen={true}
@@ -73,6 +74,7 @@ const EventOverlayInfo = (props) => (
         showReservBtn={props.showReservBtn}
         name={props.name}
         date={props.date}
+        startLink={props.startLink}
       />
       <OverlayMediaButton albumLink={props.albumLink} />
     </div>
@@ -95,7 +97,7 @@ const OverlayReservButton = (props) => (
         closeoverlay="true"
         className="my-5"
         to={{
-          pathname: "/contacto",
+          pathname: `${props.startLink}/contacto`,
           state: {
             reservaText: "Reserva: " + props.name + " " + props.date,
           },

@@ -1,60 +1,64 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../styles/header.scss";
 import { Overlay } from "./overlay.js";
 
-export function Header() {
-  const location = useLocation();
+export const Header = (props) => (
+  <Navbar
+    collapseOnSelect
+    variant="dark"
+    expand="lg"
+    className="container shadow header-line py-md-3"
+  >
+    <Link to="/inicio" className="navbar-brand">
+      <h3>BA-DISCO</h3>
+    </Link>
 
-  return (
-    <Navbar
-      collapseOnSelect
-      variant="dark"
-      expand="lg"
-      className="container shadow header-line py-md-3"
-    >
-      <Link to="/inicio" className="navbar-brand">
-        <h3>BA-DISCO</h3>
-      </Link>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav">
+      <i className="fas fa-bars"></i>
+    </Navbar.Toggle>
 
-      <Navbar.Toggle aria-controls="responsive-navbar-nav">
-        <i className="fas fa-bars"></i>
-      </Navbar.Toggle>
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <Nav className="container justify-content-end">
+        <HeaderLink
+          id="inicio"
+          path={`${props.startLink}/`}
+          name="Inicio"
+          classNormal="header-link"
+          classActive="selected"
+          linkMatchItem={props.linkMatchItem}
+        />
+        <HeaderLink
+          id="nosotros"
+          path={`${props.startLink}/nosotros`}
+          name="Nosotros"
+          classNormal="header-link"
+          classActive="selected"
+          linkMatchItem={props.linkMatchItem}
+        />
+        <HeaderDropDown
+          id="eventos"
+          startLink={props.startLink}
+          linkMatchItem={props.linkMatchItem}
+        />
+        <HeaderLink
+          id="contacto"
+          path={`${props.startLink}/contacto`}
+          name="Contacto"
+          classNormal="header-link"
+          classActive="selected"
+          linkMatchItem={props.linkMatchItem}
+        />
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
+);
 
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="container justify-content-end">
-          <HeaderLink
-            id="inicio"
-            path="/"
-            name="Inicio"
-            classNormal="header-link"
-            classActive="selected"
-          />
-          <HeaderLink
-            id="nosotros"
-            path="/nosotros"
-            name="Nosotros"
-            classNormal="header-link"
-            classActive="selected"
-          />
-          <HeaderDropDown id="eventos" />
-          <HeaderLink
-            id="contacto"
-            path="/contacto"
-            name="Contacto"
-            classNormal="header-link"
-            classActive="selected"
-          />
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  );
-}
 const HeaderLink = (props) => (
   <NavLink
     className={
-      location.pathname == props.path
+      props.linkMatchItem === props.id
         ? props.classNormal + " " + props.classActive
         : props.classNormal
     }
@@ -64,15 +68,25 @@ const HeaderLink = (props) => (
   </NavLink>
 );
 
-const HeaderDropDown = () => (
-  <Overlay overlayButton={<OverlayButton />} overlayInfo={<OverlayInfo />} />
+const HeaderDropDown = (props) => (
+  <Overlay
+    overlayButton={
+      <OverlayButton linkMatchItem={props.linkMatchItem} id={props.id} />
+    }
+    overlayInfo={
+      <OverlayInfo
+        startLink={props.startLink}
+        linkMatchItem={props.linkMatchItem}
+      />
+    }
+  />
 );
 
-const OverlayButton = () => (
+const OverlayButton = (props) => (
   <button
     className={
-      location.pathname == "/eventos-proximos" ||
-      location.pathname == "/eventos-anteriores"
+      props.linkMatchItem === "eventos-anteriores" ||
+      props.linkMatchItem === "eventos-proximos"
         ? "evento-button selected"
         : "evento-button"
     }
@@ -84,22 +98,24 @@ const OverlayButton = () => (
   </button>
 );
 
-const OverlayInfo = () => (
+const OverlayInfo = (props) => (
   <div className="overlay-menu">
     <HeaderLink
       id="eventos-proximos"
-      path="/eventos-proximos"
+      path={`${props.startLink}/eventos-proximos`}
       name="Proximos"
       classNormal="overlay-link"
       classActive="selected"
+      linkMatchItem={props.linkMatchItem}
     />
     <div className="overlay-underline w-100"></div>
     <HeaderLink
       id="eventos-anteriores"
-      path="/eventos-anteriores"
+      path={`${props.startLink}/eventos-anteriores`}
       name="Anteriores"
       classNormal="overlay-link"
       classActive="selected"
+      linkMatchItem={props.linkMatchItem}
     />
   </div>
 );

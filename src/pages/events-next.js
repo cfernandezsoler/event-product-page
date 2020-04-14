@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import eventsNext from "./data/events-next.json";
 import { Event } from "./events.js";
 
-export const EventsNext = () => (
+export const EventsNext = (props) => (
   <div className="container">
     <h1 className="text-center my-2">Proximos Eventos</h1>
 
@@ -20,17 +20,18 @@ export const EventsNext = () => (
           hour={data.hour}
           desc={data.desc}
           showReservBtn={data.showReservBtn}
+          startLink={props.startLink}
         />
       ))}
-      <EventReserv />
+      <EventReserv startLink={props.startLink} />
     </div>
   </div>
 );
 
-const EventReserv = () => (
+const EventReserv = (props) => (
   <Link
     to={{
-      pathname: "/contacto",
+      pathname: `${props.startLink}/contacto`,
       state: {
         reservaText: "Reserva de Evento ",
       },
