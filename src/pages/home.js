@@ -46,11 +46,11 @@ export class Home extends Component {
             desc="Tres barras distribuidas por todo el local"
           />
           <Item icon="fa-utensils" desc="Servicio de Catering" />
-          <Item icon="fa-camera" desc="Fotografo" />
+          <Item icon="fa-camera" desc="Fotógrafo" />
           <Item icon="fa-users" desc="Capacidad para 1500 personas" />
           <Item
             icon="fa-hand-holding-medical"
-            desc="Servicio Medico Incluido"
+            desc="Servicio Médico Incluido"
           />
           <Item icon="fa-wheelchair" desc="Acceso Discapacitados" />
         </ItemList>
@@ -68,13 +68,13 @@ const IntroText = () => (
       Sala de Eventos y Espectaculos
     </h1>
     <p id="description" className="m-center">
-      Ubicado en Av Juramento 2000, Barrio Belgrano CABA. Fue remodelado en su
+      Ubicado en Juramento 2000, Barrio Belgrano CABA. Fue remodelado en su
       totalidad para ofrecerle a sus asistentes una locación única en su tipo,
       con una ubicación conveniente, sonido e iluminación de última tecnología y
-      con una atención especializada en el buen trato a sus clientes.
-      <br /> Fiel a nuestra línea artística, les ofrecemos una propuesta musical
-      más que atractiva, permitiendo por su estructura modular la posibilidad de
-      realizar su evento utilizando el salón completo a su disposicion. Contando
+      con una atención especializada en el buen trato a sus clientes. <br />
+      Fiel a nuestra línea artística, les ofrecemos una propuesta musical más
+      que atractiva, permitiendo por su estructura modular la posibilidad de
+      realizar su evento utilizando el salón completo a su disposición. Contando
       con los beneficios que ofrece el establecimiento.
     </p>
   </div>

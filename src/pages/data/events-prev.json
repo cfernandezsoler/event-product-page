@@ -8,7 +8,7 @@
     "name": "Evento 1",
     "fullDate": "Viernes 1 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -18,9 +18,9 @@
     "day": "Sab",
     "date": "2/11/2019",
     "name": "Evento 2",
-    "fullDate": "Sabado 2 de Noviembre",
+    "fullDate": "Sábado 2 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -32,7 +32,7 @@
     "name": "Evento 3",
     "fullDate": "Viernes 8 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -42,9 +42,9 @@
     "day": "Sab",
     "date": "9/11/2019",
     "name": "Evento 4",
-    "fullDate": "Sabado 9 de Noviembre",
+    "fullDate": "Sábado 9 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -56,7 +56,7 @@
     "name": "Evento 5",
     "fullDate": "Viernes 15 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -66,9 +66,9 @@
     "day": "Sab",
     "date": "16/11/2019",
     "name": "Evento 6",
-    "fullDate": "Sabado 16 de Noviembre",
+    "fullDate": "Sábado 16 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -80,7 +80,7 @@
     "name": "Evento 7",
     "fullDate": "Viernes 22 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -90,9 +90,9 @@
     "day": "Sab",
     "date": "23/11/2019",
     "name": "Evento 8",
-    "fullDate": "Sabado 23 de Noviembre",
+    "fullDate": "Sábado 23 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -104,7 +104,7 @@
     "name": "Evento 9",
     "fullDate": "Viernes 29 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -114,9 +114,9 @@
     "day": "Sab",
     "date": "30/11/2019",
     "name": "Evento 10",
-    "fullDate": "Sabado 30 de Noviembre",
+    "fullDate": "Sábado 30 de Noviembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -126,9 +126,9 @@
     "day": "Mie",
     "date": "4/12/2019",
     "name": "Evento 11",
-    "fullDate": "Miercoles 4 de Diciembre",
+    "fullDate": "Miércoles 4 de Diciembre",
     "hour": "21:00 PM - 01:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Evento 12",
     "fullDate": "Viernes 6 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -150,9 +150,9 @@
     "day": "Sab",
     "date": "7/12/2019",
     "name": "Evento 13",
-    "fullDate": "Sabado 7 de Diciembre",
+    "fullDate": "Sábado 7 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Evento 14",
     "fullDate": "Viernes 13 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -174,9 +174,9 @@
     "day": "Sab",
     "date": "14/12/2019",
     "name": "Evento 15",
-    "fullDate": "Sabado 14 de Diciembre",
+    "fullDate": "Sábado 14 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Evento 16",
     "fullDate": "Viernes 20 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -198,9 +198,9 @@
     "day": "Sab",
     "date": "21/12/2019",
     "name": "Evento 17",
-    "fullDate": "Sabado 21 de Diciembre",
+    "fullDate": "Sábado 21 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Evento 18",
     "fullDate": "Viernes 27 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -222,9 +222,9 @@
     "day": "Sab",
     "date": "28/12/2019",
     "name": "Evento 19",
-    "fullDate": "Sabado 28 de Diciembre",
+    "fullDate": "Sábado 28 de Diciembre",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Evento 20",
     "fullDate": "Jueves 30 de Diciembre",
     "hour": "21:00 PM - 01:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -248,7 +248,7 @@
     "name": "Evento 21",
     "fullDate": "Viernes 10 de Enero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -258,9 +258,9 @@
     "day": "Sab",
     "date": "11/1/2020",
     "name": "Evento 22",
-    "fullDate": "Sabado 11 de Enero",
+    "fullDate": "Sábado 11 de Enero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -272,7 +272,7 @@
     "name": "Evento 23",
     "fullDate": "Viernes 24 de Enero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -282,9 +282,9 @@
     "day": "Sab",
     "date": "25/1/2020",
     "name": "Evento 24",
-    "fullDate": "Sabado 25 de Enero",
+    "fullDate": "Sábado 25 de Enero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -296,7 +296,7 @@
     "name": "Evento 25",
     "fullDate": "Viernes 14 de Febrero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -306,9 +306,9 @@
     "day": "Sab",
     "date": "15/2/2020",
     "name": "Evento 26",
-    "fullDate": "Sabado 15 de Febrero",
+    "fullDate": "Sábado 15 de Febrero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -318,9 +318,9 @@
     "day": "Mie",
     "date": "19/2/2020",
     "name": "Evento 27",
-    "fullDate": "Miercoles 19 de Febrero",
+    "fullDate": "Miércoles 19 de Febrero",
     "hour": "20:00 PM - 00:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Evento 28",
     "fullDate": "Viernes 28 de Febrero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -342,9 +342,9 @@
     "day": "Sab",
     "date": "29/2/2020",
     "name": "Evento 29",
-    "fullDate": "Sabado 29 de Febrero",
+    "fullDate": "Sábado 29 de Febrero",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -356,7 +356,7 @@
     "name": "Evento 30",
     "fullDate": "Viernes 6 de Marzo",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   },
   {
@@ -366,9 +366,9 @@
     "day": "Sab",
     "date": "7/3/2020",
     "name": "Evento 31",
-    "fullDate": "Sabado 7 de Marzo",
+    "fullDate": "Sábado 7 de Marzo",
     "hour": "01:00 AM - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "albumLink": "https://www.facebook.com"
   }
 ]

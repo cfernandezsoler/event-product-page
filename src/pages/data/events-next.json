@@ -8,7 +8,7 @@
     "name": "Evento 1",
     "fullDate": "Viernes 19 de Junio",
     "hour": "01:00 - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "showReservBtn": true
   },
   {
@@ -20,7 +20,7 @@
     "name": "Evento 2",
     "fullDate": "Sabado 20 de Junio",
     "hour": "01:00 - 04:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "showReservBtn": true
   },
   {
@@ -32,7 +32,7 @@
     "name": "Evento 3",
     "fullDate": "Martes 23 de Junio",
     "hour": "21:00 - 01:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "showReservBtn": true
   },
   {
@@ -44,7 +44,7 @@
     "name": "Evento 4",
     "fullDate": "Martes 21 de Julio",
     "hour": "21:00 - 01:00 AM",
-    "desc": "Descripcion del evento y/o artista.",
+    "desc": "Descripción del evento y/o artista.",
     "showReservBtn": true
   }
 ]

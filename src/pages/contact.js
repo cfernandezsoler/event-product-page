@@ -42,7 +42,7 @@ export class Contact extends Component {
           <input
             id="tel"
             type="tel"
-            placeholder="Telefono"
+            placeholder="Teléfono"
             onChange={this.handleChange}
             pattern="\d{8,13}"
             onInput={this.checkTest}
